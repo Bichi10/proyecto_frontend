@@ -1,0 +1,47 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+.container{
+    background-color: green;
+    text-align: center;
+}
+
+.caja{
+    width: 200px;
+    height: 300px;
+    border: 10px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+
+.uno{
+    background-color: blue;
+}
+.dos{
+    background-color: yellow;
+
+}
+.tres{
+    background-color: red;
+   
+}
+.cuatro{
+    background-color: blueviolet;
+}
+.cinco{
+    background-color: brown;
+}
+
+.links_container{
+    background-color: rgb(209, 212, 31);
+    height: 70px;
+    padding:  20px 5vh;
+    text-align: center;
+}
+.links_container li{
+    display: inline-block;
+    margin-left: 20px;
+}
