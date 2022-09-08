@@ -11,10 +11,11 @@ box-sizing: border-box;
 
 .caja{
     width: 200px;
-    height: 300px;
+    height: 200px;
     border: 10px solid black;
     display: inline-block;
     padding: 10px;
+    margin: 10px 20px 10px 20px;
 }
 
 .uno{
