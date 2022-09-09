@@ -1,0 +1,54 @@
+/*normalizador*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.menuSuperior {
+    color: aqua;
+    text-align: center;
+
+}
+
+.encabezado {
+    background-color: brown;
+}
+
+.menuSuperior li {
+    color: rgb(90, 201, 39);
+    margin-left: 50px;
+}
+
+#cuentaregresiva{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+/*clase para las cajas*/
+.simply-section{
+background: rgb(9, 133, 133);
+width: 150px;
+height: 150px;
+margin: 20px 50px;
+border-radius: 5px;
+display: flex;
+align-items: center; /*centro de forma vertical*/
+justify-content: center; /*centro de forma horizontal*/
+}
+
+/* tuneando los numeros*/
+.simply-amount{
+display: block;
+font-size: 30px;
+font-weight: 700;
+align-items: center;
+}
+
+/* tuneando las letras*/
+.simply-word{
+font-weight: 300px ;
+font-size: 30px;
+}
