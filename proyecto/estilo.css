@@ -20,8 +20,22 @@
     color: rgb(90, 201, 39);
     margin-left: 50px;
 }
+.tabla{
+    border: solid 1px;
+    background-color: brown;
+}
+.tabla th{
+    border: solid 1px;
+    background-color: blue;
+}
+.tabla tr td{
+    border: solid 1px;
+    background-color: beige;
+}
+
 
 #cuentaregresiva{
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     background-color: chocolate;
@@ -51,4 +65,57 @@ align-items: center;
 .simply-word{
 font-weight: 300px ;
 font-size: 30px;
+}
+.contenedor{
+    display: flex;
+
+}
+
+.contenido{
+    background-color: rgb(234, 181, 181);
+    padding: 1rem;
+    width: 50%;
+}
+.contenido_texto{
+    background-color: rgb(44, 128, 153);
+    width: 80%;
+}
+.contenido__personajes{
+    padding: 1rem;
+    align-items: baseline;
+    text-align: center;
+}
+
+.contenedor_mundiales{
+    display: flex;
+    border: solid 1px ;
+    background-color: chartreuse;
+    
+}
+.contenido__imagen_mundiales{
+    background-color: aqua;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+   /* display: inline-block; */
+    margin: 0 20px 0 60px;
+}
+.contenido_texto_mundial{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.contenido__imagen{
+    width: 20%;
+
+}
+.contenido__imagen_mundiales img{
+    width: 50%;   
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px rgba(107, 107, 107, 0.514);
+    border-radius: 10px;
 }
