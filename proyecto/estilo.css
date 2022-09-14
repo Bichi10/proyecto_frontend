@@ -86,6 +86,12 @@ font-size: 30px;
     text-align: center;
 }
 
+.contenido__texto{
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
 .contenedor_mundiales{
     display: flex;
     border: solid 1px ;
@@ -105,6 +111,7 @@ font-size: 30px;
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
+    margin-bottom: 70px;
 }
 
 .contenido__imagen{
@@ -119,3 +126,57 @@ font-size: 30px;
     box-shadow: 5px 5px rgba(107, 107, 107, 0.514);
     border-radius: 10px;
 }
+
+    /* Formulario */
+    .formulario_sec{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario{
+        padding: 4rem;
+        margin: 2rem;
+        background-color: #E7E7E7;
+        border-radius: 5px;
+    }
+
+    .formulario input, .formulario textarea, .formulario select{
+        margin-bottom: 1.5rem;
+        width: 100%;
+        padding: 1rem;
+    }
+    .field, legend{
+        border: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .field, input{
+        margin: 0px 0px 10px 0px;
+        
+    }
+    .checkbox{
+        display: flex;
+    
+    }
+    .checkbox input{
+        width: 5%;
+    }
+
+    .boton_enviar{
+        background-color: aqua;
+        border-color: aqua;
+        border-radius: 4px;
+    }
+    .boton_enviar:hover{
+        background-color: blueviolet;
+        border: 2px solid;
+        border-color:blueviolet;
+    }
+    
+    /* Pseudoclases */
+    a:hover{  background-color:blue; color:white; text-decoration:underline; }
+    a:link{ text-decoration:none; color:red; }
+    a:visited{ color:#999999; }
+    a:active{ background-color:yellow; color:black; }

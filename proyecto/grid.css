@@ -6,7 +6,7 @@
         "nav cuentaregresiva aside"
         "footer footer  footer";
 
-    grid-template-rows: 20px 1fr 1fr 40px;
+    grid-template-rows: 20px 1fr 1fr 60px;
     grid-column: 20% auto 15%;
     grid-row-gap: 5px;
     grid-column-gap: 5px;
