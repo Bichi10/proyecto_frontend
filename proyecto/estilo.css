@@ -151,6 +151,9 @@ font-size: 30px;
         width: 100%;
         text-align: center;
     }
+    .field1{
+        border: none;
+    }
 
     .field, input{
         margin: 0px 0px 10px 0px;

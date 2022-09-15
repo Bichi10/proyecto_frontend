@@ -1,13 +1,13 @@
 #grilla {
     display: grid;
     grid-template-areas:
-        "header header header"
-        "nav productos aside"
-        "nav cuentaregresiva aside"
-        "footer footer  footer";
+        "header header header header"
+        "nav productos productos aside"
+        "nav cuentaregresiva cuentaregresiva  aside"
+        "footer footer footer footer";
 
     grid-template-rows: 20px 1fr 1fr 60px;
-    grid-column: 20% auto 15%;
+    grid-column: 20% 50% 50% 20%;
     grid-row-gap: 5px;
     grid-column-gap: 5px;
     height: 100vh;
@@ -31,6 +31,7 @@ aside{
 section#productos {
     background-color: aquamarine;
     grid-area: productos;
+    width: 100%;
 }
 
 section#cuentaregresiva{
