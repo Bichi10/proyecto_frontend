@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Proyecto final</title>
+</head>
+
+<body>
+    <div id="grilla">
+        <header class="encabezado"> aca va el encabezado sea cual sea </header>
+
+        <section id="productos" class="border" class="contenido__personajes">
+            <!-- Contenido -->
+            <center><img src="./img/grupos.jpg" alt="grupos del mundial"></center>
+        </section>
+
+        <fieldset class="field1">
+            <legend>El Mundial comienza en:</legend>
+            <section id="cuentaregresiva" class="border">
+                <script src="./js/simplyCountdown.min.js"></script>
+                <script src="./js/cuentaregresiva.js"></script>
+            </section>
+        </fieldset>
+
+        <nav class="border">
+            <ul class="menuSuperior">
+                <li> <a href="./pages/fixture.html">Fixture</a></li>
+                <li> <a href="./pages/Selecciones.html">Selecciones </a></li>
+                <li> <a href="./pages/Resultados">Resultados</a></li>
+                <li> <a href="#"> Nosotros</a></li>
+                <li> <a href="#"> Ranking de Selecciones FIFA</a></li>
+            </ul>
+        </nav>
+
+        <aside class="border">
+            <section class="formulario_sec">
+                <form action="https://formspree.io/f/xaykqlyr" method="post">
+                    <fieldset class="field">
+                        <legend>Noticias del Mundial</legend> <br>
+                        <label for="nombre"> Nombre</label><br>
+                        <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre"><br>
+                        <label for="correo"> Correo electrónico</label><br>
+                        <input type="email" name="correo" id="correo" placeholder="Ingresa tu email"><br>
+                        <label for="clave"> Contraseña</label><br>
+                        <input type="password" name="clave" id="clave" placeholder="ingresa tu contraseña"><br>
+                        <label for="fecha"> Fecha de nacimiento</label><br>
+                        <input type="date" name="fecha" required> <br>
+                        <label for="mensaje"> Escribi tu comentario</label><br>
+                        <textarea name="mensaje" id="mensaje" cols="20" rows="5" minlength="2"
+                            maxlength="40"></textarea><br>
+
+                        <!-- Menu desplegable -->
+                        <label for="talle">Datos de Partidos</label>
+                        <select name="talle" id="talle">
+                            <option value="a"> Alineaciones</option>
+                            <option value="hc"> Hora de comienzo</option>
+                            <option value="rf"> Resultado Final</option>
+                        </select><br><br>
+
+                        <!-- Botones Radio -->
+                        <label for="pais"> Goles</label>
+                        <input type="radio" name="pais" value="Goles">
+                        <label for="pais"> Expulsiones</label>
+                        <input type="radio" name="pais" value="Expulsiones">
+                        <label for="pais"> Figuras</label>
+                        <input type="radio" name="pais" value="Figuras"><br><br>
+                        <!-- Casillas de chequeo -->
+                        <div class="checkbox">
+                            <input type="checkbox" name="acepta" value="1">
+                            <label> Acepta los términos y condiciones</label>
+                        </div><br>
+                        <!-- Botones -->
+                        <input type="submit" value="Enviar formulario" class="boton_enviar">
+                        <input type="reset" value="Limpiar formulario">
+                        <input type="button" value="Sin acciones">
+                    </fieldset>
+                </form>
+
+            </section>
+
+        </aside>
+        <footer class="border"> pie de pagina </footer>
+    </div>
+</body>
+
+</html>
